@@ -4,7 +4,7 @@ import { App } from 'components/App';
 import { RouterProvider } from 'react-router-dom';
 import Routes from './routes/Routes';
 import './index.css';
-/*import { BrowserRouter } from "react-router-dom";*/
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,10 +14,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>
 );
 
-/*ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename="/goit-react-hw-05-movies">
       <App />
     </BrowserRouter>
   </React.StrictMode>
-);*/
+);
